@@ -3,10 +3,4 @@ server:
   origin: 'http://localhost:3000'
 
 db:
-  host: 'localhost'
-  type: 'postgres'
-  port: 5432
-  username: 'postgres'
-  password: 'postgres'
-  database: 'postgres'
-  synchronize: false
+  mongo_uri: 'mongodb://127.0.0.1/reservation-systems'
